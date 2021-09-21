@@ -179,6 +179,7 @@ namespace _9_20_2021
                             Console.WriteLine(s3.GetPrice());
                             Console.Write("Smoothie Name: ");
                             Console.WriteLine(s3.GetName());
+                            cart.Clear();
                             Console.WriteLine("Hit Enter to continue");
                             Console.ReadLine();
                             Console.Clear();
